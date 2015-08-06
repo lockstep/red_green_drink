@@ -1,3 +1,6 @@
+require_relative "../bar"
+require_relative "../person"
+
 describe Person do
   it 'has a name' do
     person = Person.new(name: 'Jim')
