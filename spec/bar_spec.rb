@@ -1,3 +1,6 @@
+
+require_relative "../bar"
+
 describe Bar do
   it 'is open for business!' do
     bar = Bar.new
