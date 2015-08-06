@@ -1,5 +1,5 @@
-
 require_relative "../bar"
+require_relative "../drink"
 
 describe Bar do
   before { @bar = Bar.new }
